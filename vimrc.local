@@ -31,6 +31,9 @@ set undoreload=10000
 set cmdheight=2
 set shortmess+=T
 
+" backups
+
+
 
 " Leader"
 let mapleader = '\'
@@ -148,7 +151,7 @@ nmap <leader>fp :cp<cr>
 command -bang -nargs=? QFix call QFixToggle(<bang>0)
 function! QFixToggle(forced)
   if exists("g:qfix_win") && a:forced == 0
-    cclose
+    close
     unlet g:qfix_win
   else
     copen 10
