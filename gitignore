@@ -1,5 +1,7 @@
 *.DS_Store
 *.sw[nop]
+.swp
+vim/tmp
 .bundle
 .env
 db/*.sqlite3

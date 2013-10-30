@@ -31,9 +31,13 @@ set undoreload=10000
 set cmdheight=2
 set shortmess+=T
 
+
+" xmledit for html
+let g:xmledit_enable_html = 1
+
+filetype plugin on
+
 " backups
-
-
 
 " Leader"
 let mapleader = '\'
@@ -202,6 +206,7 @@ let g:event_handler_attributes_complete = 0
 let g:rdfa_attributes_complete = 0
 let g:microdata_attributes_complete = 0
 let g:atia_attributes_complete = 0
+
 
 " Shouldn't need shift
 nnoremap ; :
