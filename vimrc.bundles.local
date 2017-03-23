@@ -11,4 +11,5 @@ Bundle 'tpope/vim-unimpaired'
 Bundle 'Valloric/YouCompleteMe'
 Bundle 'Townk/vim-autoclose'
 Bundle 'sukima/xmledit'
+Bundle 'chriskempson/vim-tomorrow-theme'
 

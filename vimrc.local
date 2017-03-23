@@ -234,7 +234,7 @@ endfunc
 
 if has('gui_running')
     set guioptions=-t
-    set guifont=Monaco:h11
+    set guifont=Source_Code_Pro:h11
     colorscheme blehn
     set background=dark
 
@@ -249,3 +249,5 @@ if has('gui_running')
     highlight SpellBad term=underline gui=undercurl guisp=Orange
 endif
 
+" React stuff
+let g:jsx_ext_required = 0 " Allow JSX in normal JS files

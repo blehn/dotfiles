@@ -1,4 +1,10 @@
-# load our own completion functions
+# React native thingy
+export ANDROID_HOME=~/Library/Android/sdk
+export PATH=${PATH}:${ANDROID_HOME}/tools
+export PATH=${PATH}:${ANDROID_HOME}/platform-tools
+
+
+ #load our own completion functions
 fpath=(~/.zsh/completion $fpath)
 
 # completion
@@ -72,3 +78,7 @@ unsetopt nomatch
 
 # Local config
 [[ -f ~/.zshrc.local ]] && source ~/.zshrc.local
+
+
+export NVM_DIR="/Users/blehn/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
